@@ -40,6 +40,7 @@ a {
     align-items: center;
     background-color: #1f2937;
     padding: 150px;
+
 }
 
 .main-title {
@@ -53,11 +54,13 @@ p {
     color: #E5d7eb;
 }
 
-button {
+.sign-up {
     background-color: #3882f6;
-    padding: 6px 12px;
+    padding: 6px 24px;
     border-radius: 8px;
+    font-size: 18px;
     color: white;
+    margin: 0;
 }
 .main-pic {
     width: 400px;
@@ -72,7 +75,7 @@ button {
 
 img {
     width: 300px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 
@@ -89,7 +92,7 @@ img {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .container-info {
@@ -99,7 +102,7 @@ img {
 
 .container-three {
     background-color: #e5e7eb;
-    padding: 30px 50px;
+    padding: 100px 50px;
 }
 
 .quote {
@@ -107,7 +110,6 @@ img {
     font-size: 36px;
     color: #1f2937;
     font-weight: 100;
-    margin: 0 500px;
 }
 
 .author {
@@ -134,7 +136,12 @@ img {
 }
 
 .signup-two {
-    border: 1px solid white;
+    border: 2px solid white;
+    padding: 6px 28px;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
 }
 
 .footer {
