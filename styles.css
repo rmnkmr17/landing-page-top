@@ -26,7 +26,7 @@ a {
     align-items: center;
     background-color: #1f2937;
     padding-bottom: 20px;
-    padding: 0 200px;
+    padding: 3px 15%;
 }
 
 .logo {
@@ -41,7 +41,7 @@ a {
     align-items: center;
     gap: 300px;
     background-color: #1f2937;
-    padding: 150px;
+    padding: 100px 10%;
 
 }
 
@@ -106,7 +106,15 @@ img {
 
 .container-info {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 36px;
+    padding: 3px 15%;
+    
+}
+
+.info {
+    text-align: center;
+    width: 300px;
 }
 
 .container-three {
@@ -123,10 +131,12 @@ img {
 }
 
 .author {
+    font-size: 18px;
     font-weight: 900;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 600px;
+    justify-content: center;
+    margin-left: 600px;
+    margin-right: auto;
 }
 
 .container-four {
