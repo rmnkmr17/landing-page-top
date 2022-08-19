@@ -25,6 +25,7 @@ a {
     justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
+    padding-bottom: 20px;
 }
 
 .logo {
@@ -36,7 +37,9 @@ a {
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1f2937;
+    padding: 150px;
 }
 
 .main-title {
@@ -61,21 +64,37 @@ button {
     height: 200px;
 }
 
+.text {
+    text-align: center;
+    font-size: 18px;
+    color: #3a3b3e;
+}
+
+img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+
 .container-two {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
+    margin-top: 60px;
 }
 
 .title {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    margin-bottom: 40px;
 }
 
 .container-info {
     display: flex;
+    gap: 16px;
 }
 
 .container-three {
