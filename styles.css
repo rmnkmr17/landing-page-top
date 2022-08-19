@@ -37,10 +37,11 @@ a {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 300px;
     background-color: #1f2937;
-    padding: 200px;
+    padding: 150px;
 
 }
 
