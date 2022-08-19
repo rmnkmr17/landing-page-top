@@ -1,0 +1,1 @@
+This current project is about creating a landing starting from an image provided by 'The Odin Project'.
