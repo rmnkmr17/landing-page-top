@@ -22,10 +22,11 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     padding-bottom: 20px;
+    padding: 0 200px;
 }
 
 .logo {
@@ -36,10 +37,10 @@ a {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 150px;
+    padding: 200px;
 
 }
 
@@ -47,11 +48,17 @@ a {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     font-size: 18px;
     color: #E5d7eb;
+}
+
+.welcome {
+    width: 400px;
 }
 
 .sign-up {
@@ -61,6 +68,7 @@ p {
     font-size: 18px;
     color: white;
     margin: 0;
+    border: 0;
 }
 .main-pic {
     width: 400px;
@@ -110,6 +118,7 @@ img {
     font-size: 36px;
     color: #1f2937;
     font-weight: 100;
+    margin: 0 300px;
 }
 
 .author {
