@@ -37,11 +37,11 @@ a {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 300px;
     background-color: #1f2937;
-    padding: 100px 10%;
+    padding: 100px 15%;
+    
 
 }
 
@@ -59,7 +59,7 @@ p {
 }
 
 .welcome {
-    width: 400px;
+    width: 500px;
 }
 
 .sign-up {
@@ -72,8 +72,8 @@ p {
     border: 0;
 }
 .main-pic {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
 }
 
 .text {
@@ -144,10 +144,15 @@ img {
     justify-content: center;
     background-color: #3882f6;
     color: white;
-    padding: 26px 76px;
+    padding: 30px 15%;
     gap: 40px;
     margin: 40px auto;
     border-radius: 10px;
+
+}
+.container-four-a {
+    font-size: 22px;
+ 
 
 }
 
